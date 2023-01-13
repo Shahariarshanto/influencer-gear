@@ -127,3 +127,28 @@ hr {
   align-items: center;
   margin: 40px 0;
 }
+
+/* footer */
+.footer {
+  background-color: black;
+  height: 300px;
+  color: #ffffff;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.footer-icon {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 22px;
+  gap: 1.5rem;
+}
+.footer-icon i:hover {
+  color: #e02c6d;
+}
