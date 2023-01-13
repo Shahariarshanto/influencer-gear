@@ -119,3 +119,11 @@ hr {
   flex-direction: column;
   gap: 5px;
 }
+
+/* featured-products */
+.featured-products {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 40px 0;
+}
